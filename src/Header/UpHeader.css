@@ -1,0 +1,19 @@
+.bg {
+    background-color: #E2C76B;
+
+}
+.body{
+   font-family:  'Termina', sans-serif;
+}
+p {
+    color: #242A34;
+    font-weight: 700;
+    font-size: 12px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .bg{
+        visibility: hidden;
+    }
+}

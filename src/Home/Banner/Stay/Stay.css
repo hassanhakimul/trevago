@@ -1,0 +1,112 @@
+.vertical {
+    border-left: 0.12rem solid #C5A35A;
+    height: 300px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.room-span {
+    cursor: pointer;
+    width: auto !important;
+    border-radius: 0;
+    background: #00000009;
+    font-family: 'Fieldwork', Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 47px 40px 5px 24px;
+    border-left: 1px solid #c78711;
+    margin: 0 !important;
+    transition: 0.3s all;
+    height: 73px !important;
+    display: flex;
+    align-items: center;
+}
+
+.stay-header {
+    font-family: 'Fieldwork', Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #C5A35A !important;
+    padding: 0;
+
+}
+
+.stay-div {
+    margin-top: 220px;
+    margin-left: 100px;
+}
+
+.txt2 {
+    font-family: 'Fieldwork', Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    margin-top: 5px;
+    color: white;
+}
+
+.button2 {
+    display: inline-block;
+    padding: 01.25rem 1.25rem;
+    border: none;
+    color: #242A34;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.button2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E2C76B;
+
+    z-index: -2;
+}
+
+.button2:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #B78723;
+    transition: all 0.3s;
+
+    z-index: -1;
+}
+
+.button2:hover {
+    color: #fff;
+}
+
+.button2:hover:before {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .vertical{
+        visibility: hidden;
+    }
+}
